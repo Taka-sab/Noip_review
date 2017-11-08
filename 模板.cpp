@@ -1,4 +1,5 @@
 分块入门专题
+1.单点更新 带标记
 #include<bits/stdc++.h>
 using namespace std;
 const int maxn = 500010;
@@ -60,7 +61,7 @@ main() {
 	}
 }
 
-含区间加法,带标记的分块
+2.(LUOGU魔教) 区间求大于K的数量
 #include <stdio.h>
 #include <algorithm>
 #include <iostream>
