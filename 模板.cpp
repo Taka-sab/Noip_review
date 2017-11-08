@@ -946,9 +946,6 @@ int main(){
     if(cut[i])printf("%d ",i);//看题，别在输出格式上翻车
     return 0;
 }
-/*和求强连通分量的区别主要是在low[u]=min(low[u],dfn[v])能否改成low[u]=min(low[u],low[v])上，
-
-
 
 
 void pr(int k)      //求k的质因子  
